@@ -1,0 +1,73 @@
+#header-nav {
+ 
+  border-radius: 0;
+  border: 2px solid;
+  vertical-align: middle;
+   background-color: lightgray;
+}
+.navbar-brand {
+  padding-top: 10px;
+
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+ 
+  color: #557c3e;
+  font-size: 1.5em;
+margin: 10px 15px 10px 0;
+  text-shadow: 1px 1px 1px #222;
+  
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: #8fbc8f;
+}
+#nav-list a {
+  color: #00008b;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 3em;
+
+}
+#nav-list li{
+	border-bottom: 1px solid ;
+}
+#nav-list li:last-child{
+	border-bottom: none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#sushi h3,#chiken h3,#beef h3{
+	text-align: center;
+}
+#sushi ,#chiken ,#beef{
+	
+	background-color: lightgray;
+	height: 700px;
+	margin:10px;
+}
+h1{
+	text-align: center;
+}
+div p:nth-child(2){
+	/* background-color: lightgray;*/
+	  padding: 10px;
+      text-align: justify;
+      width: 100%;
+}
